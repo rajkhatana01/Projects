@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Details</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <button id="addbtn">Add Education</button>
+    <div id="container">
+        <div id="div1">
+            <form action="#">
+                <label for="degree">Degree</label>
+                <input type="text" name="degree" id="degree" placeholder="Enter Name">
+                <br>
+                <label for="year">Year</label>
+                <input type="text" id="year" name="year" placeholder="Enter Year">
+                <br>
+                <label for="reg">Reg No.</label>
+                <input type="text" id="reg" name="reg" placeholder="Enter Registraion number">
+                <br>
+                <label for="university">University</label>
+                <input type="text" id="university" name="university" placeholder="Enter University Name">
+                <br><br>
+                <button type="button" id="submit">Submit</button> 
+                <button type="cancel" id="cancel">Cancel</button><br><br>
+            </form>
+        </div>
+        <div id="div2">
+            <table id="table" border="2px">
+                <tr>
+                    <th>Sr.No.</th>
+                    <th>Degree</th>
+                    <th>Year</th>
+                    <th>Registration No.</th>
+                    <th>University</th>
+                    <th>Edit/delete</th>
+                </tr>
+                 
+            </table>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

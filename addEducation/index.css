@@ -1,0 +1,83 @@
+*{
+    font-family:'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+#container{
+    height: 100vh;
+    
+}
+
+#addbtn{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    font-weight: 200;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#div1{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 2px solid black;
+    visibility: hidden;
+
+}
+label{
+    margin-left: 20px;
+}
+
+input{
+    width:40%;
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 5px;
+}
+#year{
+    margin-left: 120px;
+} 
+
+#reg{
+    margin-left: 94px;
+}
+
+#university{
+    margin-left: 82px;
+}
+
+#cancel{
+    float: right;
+    height: 35px;
+    width: 80px;
+    margin-right: 100px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit{
+    margin-left: 150px;
+    height: 35px;
+    width: 80px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#div2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#table{
+    border-collapse: collapse;
+}
