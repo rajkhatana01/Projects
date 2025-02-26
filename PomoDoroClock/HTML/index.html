@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PomoDoro Clock</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+</head>
+<body>
+    <div class="container">
+        <div id="display">
+            <span>00:00</span>
+        </div>
+        <div id="div1">
+            <label for="seassion" id="label"></label><br>
+            <div class="line"></div>
+        </div>
+        
+
+        <div id="setTime">
+            <div class="seassionTime">
+                <b>Session Time</b> <br><br>
+                <span id="st">10 min</span><br>
+                <button id="sm" class="setBtn">-</button>
+                <button id="sp" class="setBtn">+</button>
+            </div>
+            <div class="break">
+                <b>Break Time </b><br><br>
+                <span id="bt">02 min</span><br>
+                <button id="bm" class="setBtn">-</button>
+                <button id="bp" class="setBtn">+</button>
+            </div>
+        </div>
+        <div class="line" id="line"></div>
+        <div id="buttons">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+    </div>
+<script src="../JS/index.js"></script>
+</body>
+</html>
